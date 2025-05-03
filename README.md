@@ -17,12 +17,12 @@
 
 📌 Примеры:
 
-* **[ArtEcho](https://artecho.pythonanywhere.com/demo/welcome/)** — платформа для отзывов с расширенной системой ролей
-  [GitHub](https://github.com/HermannRorshach/artecho)
-* **[Расписание мероприятий общины](https://www.malone.guru/)** — сайт с публикацией расписания и возможностью записаться на события через форму
-  [GitHub](https://github.com/HermannRorshach/breakfast_lecture_planner)
-* **[Генератор презентаций](https://createpresentation.pythonanywhere.com/)** — генерация PDF-презентаций из Excel
-  [GitHub](https://github.com/HermannRorshach/presentation_generator)
+* **[ArtEcho](https://github.com/HermannRorshach/artecho)** — платформа для отзывов с расширенной системой ролей
+  [Сайт](https://artecho.pythonanywhere.com/demo/welcome/)
+* **[Расписание мероприятий общины](https://github.com/HermannRorshach/breakfast_lecture_planner)** — сайт с публикацией расписания и возможностью записаться на события через форму
+  [Сайт](https://www.malone.guru/)
+* **[Генератор презентаций](https://github.com/HermannRorshach/presentation_generator)** — генерация PDF-презентаций из Excel
+  [Сайт](https://createpresentation.pythonanywhere.com/)
 * **[ScanItEasy](https://github.com/HermannRorshach/ScanItEasy)** — имитация сканирования документов
 * **[ChatInitiator](https://github.com/HermannRorshach/ChatInitiator)** — скрипт для отправки первого сообщения новым собеседникам (собеседницам), отфильтрованным по стандартным критериям (возраст, семейное положение, пол и др.) на православном сайте знакомств
 * **[foodgram-project-react](https://github.com/HermannRorshach/foodgram-project-react)** — платформа для публикации и поиска рецептов
