@@ -21,7 +21,7 @@
   [Сайт](https://artecho.pythonanywhere.com/demo/welcome/)
 * **[Расписание мероприятий общины](https://github.com/HermannRorshach/breakfast-lecture-planner)** — сайт с публикацией расписания и возможностью записаться на события через форму
   [Сайт](https://www.malone.guru/)
-* **[Генератор презентаций](https://github.com/HermannRorshach/presentation-generator)** — генерация PDF-презентаций из Excel
+* **[Генератор презентаций](https://github.com/HermannRorshach/PresentationGenerator)** — генерация PDF-презентаций из Excel
   [Сайт](https://createpresentation.pythonanywhere.com/)
 * **[ScanItEasy](https://github.com/HermannRorshach/ScanItEasy)** — имитация сканирования документов
 * **[ChatInitiator](https://github.com/HermannRorshach/ChatInitiator)** — скрипт для отправки первого сообщения новым собеседникам (собеседницам), отфильтрованным по стандартным критериям (возраст, семейное положение, пол и др.) на православном сайте знакомств
