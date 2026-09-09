@@ -1,30 +1,103 @@
 # Привет! Я Павел 👋
 
-Мне интересно делать веб-приложения, писать бекенд и фронтенд, автоматизировать рутинные процессы с помощью программного кода. Работаю в основном с Python и JavaScript.
+Я full-stack-разработчик и разработчик в [FormaCode](https://formacode.dev/ru) — студии, которая создаёт сайты, веб- и мобильные приложения, браузерные расширения, Telegram-ботов и специализированные программы для бизнеса.
 
-Здесь на GitHub — мои проекты: от утилит для автоматизации до полноценных веб-сервисов. Есть завершённые работы, есть те, что продолжаю развивать или использую как заготовки для новых задач. Постепенно дополняю, дорабатываю, иногда рефакторю.
+Мне интересны проекты, в которых программный код решает конкретную практическую задачу: автоматизирует повторяющиеся операции, упрощает сложный рабочий процесс или превращает идею в самостоятельный цифровой продукт.
 
-**Что я умею и с чем работаю:**
+Работаю с Python, JavaScript и TypeScript, разрабатываю backend и frontend, проектирую API, интегрирую внешние сервисы и разворачиваю приложения на серверах.
 
-* Проектирование и разработка веб-приложений (Python, Django, HTML, CSS, JS)
-* Создание и настройка REST API (Django REST Framework, JWT)
-* Интеграция сторонних сервисов (Telegram API, Google Sheets API и др.)
-* Разработка десктопных приложений с графическим интерфейсом на Python с помощью библиотек `tkinter` и `customtkinter`, сборка standalone-исполнителей с помощью PyInstaller
-* Автоматизация через Selenium, pandas и др.
-* Работа с PDF и DOCX (PyMuPDF, python-docx)
-* Разворачивание приложений (Docker, Gunicorn, Nginx)
-* Настройка БД (PostgreSQL, SQLite)
+## Основные проекты
 
-📌 Примеры:
+### [Cadence Keeper](https://github.com/PavelCraft/CadenceKeeper)
 
-* **[ArtEcho](https://github.com/PavelCraft/artecho)** — платформа для отзывов с расширенной системой ролей
-  [Сайт](https://artecho.pythonanywhere.com/demo/welcome/)
-* **[Расписание мероприятий общины](https://github.com/PavelCraft/breakfast-lecture-planner)** — сайт с публикацией расписания и возможностью записаться на события через форму
-  [Сайт](https://www.malone.guru/)
-* **[Генератор презентаций](https://github.com/PavelCraft/PresentationGenerator)** — генерация PDF-презентаций из Excel
-  [Сайт](https://createpresentation.pythonanywhere.com/)
-* **[ScanItEasy](https://github.com/PavelCraft/ScanItEasy)** — имитация сканирования документов
-* **[ChatInitiator](https://github.com/PavelCraft/ChatInitiator)** — скрипт для отправки первого сообщения новым собеседникам (собеседницам), отфильтрованным по стандартным критериям (возраст, семейное положение, пол и др.) на православном сайте знакомств
-* **[foodgram-project-react](https://github.com/PavelCraft/foodgram-project-react)** — платформа для публикации и поиска рецептов
+Автономное Android-приложение для упражнений с большим количеством повторений. Пользователь задаёт количество повторений и продолжительность подхода, а приложение равномерно распределяет звуковые сигналы по всему интервалу.
 
-Если интересен код — заглядывай в репозитории. Если я нужен как разработчик — пиши в [Telegram](https://t.me/realpavelb).
+Поддерживает фоновую работу при заблокированном экране, голосовые уведомления, конечный и безлимитный режимы.
+
+**Стек:** React Native, React, TypeScript, Android Foreground Service, Background Audio, Jest, Gradle.
+
+[Подробнее о проекте](https://formacode.dev/ru/cadence-keeper)
+
+---
+
+### [BlockIt](https://github.com/PavelCraft/BlockIt)
+
+Браузерное расширение для скрытия нежелательных элементов на сайтах: рекламы, всплывающих окон, навязчивых блоков и других частей интерфейса.
+
+Помимо обычных CSS-селекторов, BlockIt поддерживает расширенные правила, позволяющие описывать элементы по признакам, которые невозможно выразить стандартным CSS. Это особенно полезно на сайтах с динамическими классами, идентификаторами и меняющейся структурой DOM.
+
+**Стек:** JavaScript, Chrome Extensions API, Manifest V3, DOM API, CSS selectors, Shadow DOM.
+
+---
+
+### StableHTMLFinder
+
+Расширение для анализа структуры веб-страниц. Оно сравнивает страницу после нескольких независимых загрузок, показывает устойчивые признаки элементов и помогает создавать надёжные CSS-селекторы и правила BlockIt.
+
+В отличие от инструментов, анализирующих только текущее состояние DOM, StableHTMLFinder позволяет увидеть, какие характеристики элемента действительно сохраняются после перезагрузки страницы.
+
+Репозиторий проекта закрыт, поскольку расширение является развиваемым продуктом.
+
+**Стек:** JavaScript, Chrome Extensions API, Manifest V3, DOM analysis, Shadow DOM, iframe processing.
+
+[Подробнее о StableHTMLFinder](https://formacode.dev/ru/stablehtmlfinder)
+
+---
+
+### [ScanItEasy](https://github.com/PavelCraft/ScanItEasy)
+
+Desktop-приложение для Windows, объединяющее повседневные операции с DOCX, PDF и изображениями.
+
+Программа конвертирует документы, объединяет и переставляет страницы, сжимает файлы и имитирует цветное сканирование документа, предварительно распечатанного на чёрно-белом принтере и прошитого красной или синей лентой.
+
+Все документы обрабатываются локально и не отправляются во внешние облачные сервисы.
+
+**Стек:** Python, CustomTkinter, PyMuPDF, pikepdf, Pillow, docx2pdf, Microsoft Word integration, Ghostscript, PyInstaller.
+
+[Подробнее о проекте](https://formacode.dev/ru/scaniteasy)
+
+## Другие проекты
+
+### [Расписание мероприятий общины](https://github.com/PavelCraft/breakfast-lecture-planner)
+
+Веб-приложение для публикации расписания мероприятий и регистрации участников через форму.
+
+**Стек:** Python, Django, PostgreSQL, HTML, CSS, JavaScript.
+
+[Открыть сайт](https://www.malone.guru/)
+
+### [ArtEcho](https://github.com/PavelCraft/ArtEcho)
+
+Веб-платформа для сбора и публикации отзывов с системой ролей, модерированием материалов и административным интерфейсом.
+
+**Стек:** Python, Django, PostgreSQL, HTML, CSS, JavaScript.
+
+[Открыть демонстрацию](https://artecho.pythonanywhere.com/demo/welcome/)
+
+### [Генератор презентаций](https://github.com/PavelCraft/PresentationGenerator)
+
+Сервис для автоматического формирования PDF-презентаций на основе данных из Excel. Помогает сократить ручную работу при подготовке большого количества однотипных материалов.
+
+**Стек:** Python, Django, pandas, openpyxl, обработка PDF и изображений.
+
+[Открыть сервис](https://createpresentation.pythonanywhere.com/)
+
+## Технологии
+
+- **Backend:** Python, Django, Django REST Framework, FastAPI, Celery
+- **Frontend:** JavaScript, TypeScript, React, Next.js, HTML, CSS
+- **Mobile:** React Native, Android
+- **Desktop:** Tkinter, CustomTkinter, PyInstaller
+- **API и интеграции:** REST API, JWT, Telegram Bot API, Google Sheets API
+- **Автоматизация:** Selenium, pandas, обработка документов и изображений
+- **Документы:** PDF, DOCX, PyMuPDF, pikepdf, python-docx, Pillow
+- **Данные:** PostgreSQL, SQLite, Redis
+- **Инфраструктура:** Docker, Nginx, Gunicorn, Linux, VPS
+
+## Связаться со мной
+
+Если вам нужен сайт, приложение, браузерное расширение, Telegram-бот или программа для автоматизации рабочего процесса:
+
+- [Сайт FormaCode](https://formacode.dev/ru)
+- [Обсудить проект](https://formacode.dev/ru/brief)
+- [Telegram](https://t.me/realpavelb)
