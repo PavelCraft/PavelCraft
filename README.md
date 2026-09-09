@@ -16,7 +16,7 @@
 
 **Стек:** React Native, React, TypeScript, Android Foreground Service, Background Audio, Jest, Gradle.
 
-[Подробнее о проекте](https://formacode.dev/ru/cadence-keeper)
+[Скачать APK v1.0.0](https://github.com/PavelCraft/CadenceKeeper/releases/tag/v1.0.0) · [Подробнее о проекте](https://formacode.dev/ru/cadence-keeper)
 
 ---
 
@@ -54,7 +54,7 @@ Desktop-приложение для Windows, объединяющее повсе
 
 **Стек:** Python, CustomTkinter, PyMuPDF, pikepdf, Pillow, docx2pdf, Microsoft Word integration, Ghostscript, PyInstaller.
 
-[Подробнее о проекте](https://formacode.dev/ru/scaniteasy)
+[Скачать ScanItEasy 2.1.0 для Windows](https://github.com/PavelCraft/ScanItEasy/releases/tag/v2.1.0) · [Подробнее о проекте](https://formacode.dev/ru/scaniteasy)
 
 ## Другие проекты
 
