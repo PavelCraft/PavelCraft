@@ -100,4 +100,4 @@ Desktop-приложение для Windows, объединяющее повсе
 
 - [Сайт FormaCode](https://formacode.dev/ru)
 - [Обсудить проект](https://formacode.dev/ru/brief)
-- [Telegram](https://t.me/realpavelb)
+- [Telegram](https://t.me/PavelCodeMaster)
